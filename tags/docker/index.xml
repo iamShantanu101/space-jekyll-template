@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shantanu Deshpande</title>
+    <link>http://iamShantanu101.github.io/tags/docker/index.xml</link>
+    <description>Recent content on Shantanu Deshpande</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <atom:link href="http://iamShantanu101.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker - The Supernovae in the Tech Galaxy</title>
+      <link>http://iamshantanu101.github.io/post/post-title/</link>
+      <pubDate>Thu, 08 Dec 2016 22:02:29 +0530</pubDate>
+      
+      <guid>http://iamshantanu101.github.io/post/post-title/</guid>
+      <description>&lt;p&gt;The basic tenant of the Type 1a supernova paradigm is that these explosions happen when a group of exihiliratingly passionate guys gets close to a tipping point - A stable version (or even alpha/beta). It then open sources its store of great stuffs to a large open source community. The resulting explosion spreads like a fire, leaving an ever exapnding cloud of features dominated by the creators and open source community. So far, so good.&lt;/p&gt;
+
+&lt;p&gt;Ah, without much ado, lets break the surprise! This was none other than; Docker - The Supernovae in the Tech Galaxy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_(container_engine)_logo.png&#34; alt=&#34;Docker&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Confused? Since when did a giant Blue Whale carrying some blocks is a Supernovae? Lets see how this goes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is Docker?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;PACKAGE YOUR APPLICATION INTO A STANDARDIZED UNIT FOR SOFTWARE DEVELOPMENT&lt;/p&gt;
+
+&lt;p&gt;Docker containers wrap a piece of software in a complete filesystem that contains everything needed to run: code, runtime, system tools, system libraries – anything that can be installed on a server. This guarantees that the software will always run the same, regardless of its environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Now what the heck are Docker containers anyways? Or just Containers? And why do I need them?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Containers are a solution to the problem of how to get software to run reliably when moved from one computing environment to another. This could be from a developer&amp;rsquo;s laptop to a test environment, from a staging environment into production and perhaps from a physical machine in a data center to a virtual machine in a private or public cloud.&lt;/p&gt;
+
+&lt;p&gt;Problems arise when the supporting software environment is not identical, says Solomon Hykes, the creator of Docker, &amp;ldquo;You&amp;rsquo;re going to test using Python 2.7, and then it&amp;rsquo;s going to run on Python 3 in production and something weird will happen. Or you&amp;rsquo;ll rely on the behavior of a certain version of an SSL library and another one will be installed. You&amp;rsquo;ll run your tests on Debian and production is on Red Hat and all sorts of weird things happen.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;And it&amp;rsquo;s not just different software that can make a difference, he added, &amp;ldquo;The network topology might be different, or the security policies and storage might be different but the software has to run on it.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How do containers try to solve this problem?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Put simply, a container consists of an entire runtime environment: an application, plus all its dependencies, libraries and other binaries, and configuration files needed to run it, bundled into one package. By containerizing the application platform and its dependencies, differences in OS distributions and underlying infrastructure are abstracted away.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sounds like Virtualization, right? Whats the difference then?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In virtualization technology, the package that can be passed around is a virtual machine. This means it includes an entire operating system as well as the applciation. A physical server running three VMs would have a hypervisor and three OSs running on top of it.&lt;/p&gt;
+
+&lt;p&gt;On the contrary, a server running the containerized applications as with Docker runs a single OS, and each container shares the OS kernel with the other containers.Shared parts of the operating system are read only, while each container has its own mount (i.e., a way to access the container) for writing. That means the containers are much more lightweight and use far fewer resources than virtual machines.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What difference will it make in practical scenario?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A container may be only tens of megabytes in size, whereas a virtual machine with its own entire operating system may be several gigabytes in size.&lt;/p&gt;
+
+&lt;p&gt;Because of this, a single server can host far more containers than virtual machines. Virtual machines may take several minutes to boot up their operating systems and begin running the applications they host, containerized applications can be started almost instantly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If containers share an operating system, how secure can this be?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The general consensus, as of now, is that containers are not as secure as virtual machines. The reason is, if there&amp;rsquo;s a vulnerability in the kernel, it could provide a way in to the containers that are sharing it (although SELinux can help.) That&amp;rsquo;s also true with a hypervisor, but since a hypervisor provides far less functionality than a typical Linux kernel (which typically implements file systems, networking, application process controls and so on) it presents a much smaller attack surface.&lt;/p&gt;
+
+&lt;p&gt;To summarize, containers cannot generally provide the same level of isolation as hardware virtualization.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Now what&amp;rsquo;s the difference between Docker and containers?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Docker has become synonymous with container technology because it has been the most successful at popularizing it. But container technology is not new: It has been built in to Linux in the form of LXC for almost 10 years, and similar operating system level virtualization has also been offered by FreeBSD jails, AIX Workload Partitions and Solaris Containers.&lt;/p&gt;
+
+&lt;p&gt;And today Docker is not the only game in town for Linux. One notable alternative is rkt, a command line tool for running app containers produced by CoreOS. Rkt is able to handle Docker containers as well as ones that comply with its App Container Image specification.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s next? Stay tuned for the next post to dive deeper! Thanks!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
