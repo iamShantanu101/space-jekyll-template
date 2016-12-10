@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shantanu Deshpande</title>
+    <title>The Geek Space</title>
     <link>http://iamShantanu101.github.io/tags/containerization/index.xml</link>
-    <description>Recent content on Shantanu Deshpande</description>
+    <description>Recent content on The Geek Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2016</copyright>
@@ -15,7 +15,7 @@
       <pubDate>Thu, 08 Dec 2016 22:02:29 +0530</pubDate>
       
       <guid>http://iamshantanu101.github.io/post/post-title/</guid>
-      <description>&lt;p&gt;The basic tenant of the Type 1a supernova paradigm is that these explosions happen when a group of exihiliratingly passionate guys gets close to a tipping point - A stable version (or even alpha/beta). It then open sources its store of great stuffs to a large open source community. The resulting explosion spreads like a fire, leaving an ever exapnding cloud of features dominated by the creators and open source community. So far, so good.&lt;/p&gt;
+      <description>&lt;p&gt;The basic tenant of the Type 1a supernova paradigm is that these explosions happen when a group of exhilaratingly passionate guys gets close to a tipping point - A stable version (or even alpha/beta). They then open source the store of potentially great stuffs to a large open source community. The resulting explosion spreads like a fire, leaving an ever exapnding cloud of features dominated by the creators and open source community. So far, so good.&lt;/p&gt;
 
 &lt;p&gt;Ah, without much ado, lets break the surprise! This was none other than; Docker - The Supernovae in the Tech Galaxy.&lt;/p&gt;
 
@@ -24,6 +24,8 @@
 &lt;p&gt;Confused? Since when did a giant Blue Whale carrying some blocks is a Supernovae? Lets see how this goes.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;What is Docker?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As the official overview says :&lt;/p&gt;
 
 &lt;p&gt;PACKAGE YOUR APPLICATION INTO A STANDARDIZED UNIT FOR SOFTWARE DEVELOPMENT&lt;/p&gt;
 
